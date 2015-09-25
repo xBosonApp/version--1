@@ -2,10 +2,19 @@
   "name": "ver--1",
   "version": "0.1.1",
   "description": "Increase package.json version when npm publish.",
-  "main": "index.js",
+  "main": "./lib/util.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib/add.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node lib/install.js"
   },
   "author": "CatfoOD",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yanmingsohu/version--1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yanmingsohu/version--1/issues"
+  }
 }
