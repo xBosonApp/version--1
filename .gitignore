@@ -21,3 +21,4 @@
 *.node
 *.sln
 **/build/**
+npm-debug.log

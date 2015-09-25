@@ -1,12 +1,12 @@
 {
   "name": "ver--1",
-  "version": "0.1.1",
+  "version": "0.1.9",
   "description": "Increase package.json version when npm publish.",
-  "main": "./lib/util.js",
+  "main": "./lib/add.js",
   "scripts": {
     "start": "node lib/add.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "install": "node lib/install.js"
+    "install": "node lib/install.js",
+    "preuninstall": "node lib/uninstall.js"
   },
   "author": "CatfoOD",
   "license": "ISC",

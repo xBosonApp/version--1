@@ -3,11 +3,11 @@
 
 ## Install
 
-`npm install --save `
+`npm install --save ver--1`
 
 
 ## Usage
 
 do nothing !
 
-when `npm publish` this project 'version' while Increase
+When run `npm publish`, Current project 'version' while auto increase 0.0.1
