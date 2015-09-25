@@ -10,4 +10,4 @@
 
 do nothing !
 
-When run `npm publish`, Current project 'version' while auto increase 0.0.1
+When run `npm publish`, Current project 'version' will auto increase 0.0.1

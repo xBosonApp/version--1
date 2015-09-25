@@ -1,6 +1,6 @@
 {
   "name": "ver--1",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "Increase package.json version when npm publish.",
   "main": "./lib/add.js",
   "scripts": {
