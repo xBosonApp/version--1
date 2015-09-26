@@ -8,6 +8,4 @@
 
 ## Usage
 
-do nothing !
-
 When run `npm publish`, Current project 'version' will auto increase 0.0.1
