@@ -1,9 +1,14 @@
 {
     "name": "ver--1",
-    "version": "0.1.18",
+    "version": "0.1.14",
     "description": "Increase package.json version when npm publish.",
     "main": "./lib/add.js",
-    "scripts": {},
+    "scripts": {
+        "start": "node lib/add.js",
+        "install": "node lib/install.js",
+        "preuninstall": "node lib/uninstall.js",
+        "prepublish": "node lib/add.js"
+    },
     "author": "CatfoOD",
     "license": "ISC",
     "repository": {
@@ -11,7 +16,7 @@
         "url": "git@github.com:yanmingsohu/version--1.git"
     },
     "bin": {
-        "uv": "./lib/uv-cli.js"
+      "uv": "./lib/uv-cli.js"
     },
     "bugs": {
         "url": "https://github.com/yanmingsohu/version--1/issues"
