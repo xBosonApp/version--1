@@ -1,6 +1,6 @@
 {
     "name": "ver--1",
-    "version": "0.1.18",
+    "version": "0.1.19",
     "description": "Increase package.json version when npm publish.",
     "main": "./lib/add.js",
     "scripts": {},
@@ -11,7 +11,7 @@
         "url": "git@github.com:yanmingsohu/version--1.git"
     },
     "bin": {
-        "uv": "./lib/uv-cli.js"
+        "uv": "./lib/uv-cli"
     },
     "bugs": {
         "url": "https://github.com/yanmingsohu/version--1/issues"
